@@ -43,9 +43,9 @@ namespace Inicio_de_Sesion
         {
             string username;
             string password;
-            username = usutb.Text;
-            password = contrabt.Text;
-            if (username == "juancho" & password == "123tamarindo")
+            username = "juancho";
+            password = "123tamarindo";
+            if (usutb.Text == username & contrabt.Text == password)
             {
                 MessageBox.Show("Bienvenido " + username);
             }
